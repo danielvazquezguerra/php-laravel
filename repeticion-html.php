@@ -40,6 +40,8 @@ $menu = [
 </head>
 <body>
 
+
+
 <?php
     foreach($menu as $platos) {
 ?>

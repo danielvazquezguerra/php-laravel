@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "php-laravel",
+			"path": ".."
+		},
+		{
+			"name": "proyectoEjemplo",
+			"path": "..\\..\\proyectoEjemplo"
+		},
+		{
+			"name": "cursophp",
+			"path": "..\\..\\cursophp"
+		}
+	],
+	"settings": {}
+}

@@ -1,9 +1,6 @@
 <?php
-
-
-
+require_once 'func.php';
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,6 +10,6 @@
     <title>Document</title>
 </head>
 <body>
-    
+<?=Ejemplo1()?>
 </body>
 </html>

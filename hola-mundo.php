@@ -43,8 +43,6 @@ echo $hola;
 echo $edad;
 echo $frase;
 echo $resultado;
-
-
 ?>
     
 </body>

@@ -1,7 +1,7 @@
 <?php
 
-require_once 'controllers.php';
-conexion($localhost, $root,"", $database);
+require_once "controllers.php";
+$conector = conexion($localhost, $root,"", $database);
 
 
 $platos = getPlatos($conector);

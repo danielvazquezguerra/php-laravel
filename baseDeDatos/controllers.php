@@ -11,11 +11,12 @@ function conexion($localhost, $root = "root", $database = "proyecto_ejemplo") {
 };
 
 function getPlatos($conector){
-    $resultado = $conector->query("SELECT * FROM 'platos'");
-    
+    $resultado = $conector->query("SELECT * FROM `platos`");
     return $resultado;
 
 }
+
+
 
 
 
