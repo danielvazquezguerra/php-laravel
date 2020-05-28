@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,6 +15,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+Route::get('/platos', function ($id) {
+    $platos=DB::table('platos')->get();
+    return $platos;
 });
+
+Route::get('/platos', 'Homecontroller@index');
+Route::post('/platos', 'Homecontroller@store');
+Route::put('/platos/{id}', 'Homecontroller@update');
